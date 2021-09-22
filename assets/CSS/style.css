@@ -1,0 +1,60 @@
+:root {
+    background-color: skyblue;
+}
+body{
+
+
+    /*background: skyblue;
+    display: flex;  */
+  
+}
+
+
+
+.centerh1 { 
+    
+    position: relative;
+    display: block;
+    text-align: center;
+    
+    
+ 
+}
+.centerh2{
+    font-size: 20px;
+    text-align: center;
+    padding-left: 200px;
+    padding-right:200px;
+
+}
+
+.viewhighscore{
+    position: absolute; top: 0px;left: 0px;
+    text-align: left;
+    font-size: 20px;
+    padding: 25px
+}
+.timer{
+    position: absolute; top: 0px; right: 0px;
+    text-align: right;
+    font-size: 20px;
+    padding:25px
+}
+.start-button {
+    display: block;
+    text-align: center;
+
+   
+}
+main{display: flex;
+    flex-wrap: wrap;
+    display: none;
+
+}
+.quiz{
+    display: flexbox;
+    padding-left: 35%;
+    position: relative;
+    
+    align-items: center;
+}
