@@ -18,11 +18,11 @@
         
         <div class ="viewhighscore">View Highscores</div>
         <div class = "timer">Time</div>
-        <div class="start-button"><button class="start">Start</button></div>
+        <div class="start-button"><button class="start">Start Quiz</button></div>
     </header>
 
 
-    <main>   
+    <main class="main">   
         <div class= "quiz">
             <h1 class="question"></h1>
             <ol>
@@ -31,8 +31,15 @@
                 <li class="question3"></li>
             </ol>
         </div> 
+        <div class="user-name"></div>
         
     </main>
+
+    <div class="hide" id="end-screen">
+        Please enter your intials
+        <input id="initials" type="text" max="3">
+        <button type="submit" id="submit">Submit</button>
+    </div>
 
 
  <script src="assets/script.js"></script>
