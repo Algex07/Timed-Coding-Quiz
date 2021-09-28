@@ -20,12 +20,12 @@ let allQuestions = [{
 
 }, {
   question: "What is HTML??",
-  answers: ["Hyper-Text Markup Language", "Hyper-Tech Moving load", "Hyper-Top-Main Language"],
-  correct: "Hyper-Text Markup Language"
+  answers: ["Hyper-Text Markup Language.", "Hyper-Tech Moving Load.", "Hyper-Top-Main Language."],
+  correct: "Hyper-Text Markup Language."
 }, {
   question: "What is vanilla javaScript ?",
-  answers: ["original js", "vanilla coffee", "text editor"],
-  correct: "original js"
+  answers: ["Original java script.", "Vanilla coffee.", "Text editor."],
+  correct: "Original java script."
 }];
 
 
@@ -108,8 +108,11 @@ function startTimer() {
 var endQuiz = function () {
   
   clearInterval(timer); 
+  let main = document.querySelector(".main")
+  main.setAttribute("style", "display:none;")
   
   endScreenDiv.removeAttribute("class")
+
  
 }
 
